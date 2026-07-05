@@ -32,6 +32,9 @@ python3 tools/make_cucx.py --comp-id 93 --day 3 --out norway_day3.cucx
 
 The script prints `wrote <path>` on success.
 
+For a full walkthrough of the pipeline (fetch → normalize → build `contest.db` →
+build the `.cup` → assemble the ZIP → verify), see [docs/PROCESS.md](docs/PROCESS.md).
+
 ## What's inside a `.cucx`
 
 A `.cucx` is a ZIP containing:
