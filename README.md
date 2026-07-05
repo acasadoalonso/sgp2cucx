@@ -70,3 +70,7 @@ python3 -m pytest tools/tests/ -q
 
 Tests use captured comp-93 fixtures (`tools/tests/fixtures/comp93/`) via a fake
 fetcher, so they run offline with no network access.
+
+## License
+
+[MIT](LICENSE)
